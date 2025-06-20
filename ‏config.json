@@ -1,0 +1,24 @@
+{
+  "inbounds": [{
+    "port": 4009,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{
+        "id": "eda9088d-4854-42fb-a8b8-efb211a1bf8b",
+        "level": 0,
+        "email": "alpha@xray.com"
+      }],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/api"
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
